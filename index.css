@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #0C4A6E;
+    padding: 15px;
+
+}
+.sub-container{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+.score{
+    background-color: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 2em;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50px; */
+    margin-top: -15px;
+}
+.buttons{
+    padding-top: 10px;
+    display: flex;
+}
+.buttons button{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0px 2px;
+}
