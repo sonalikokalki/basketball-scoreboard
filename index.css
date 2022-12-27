@@ -1,42 +1,72 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+    background-color: #0C4A6E;
+    font-family: 'Verdana';
+    
+
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    background-color: #0C4A6E;
-    padding: 15px;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 50px 150px;
 
 }
 .sub-container{
+    width: 100%;
     color: white;
     font-weight: 600;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sub-container h1{
+    font-size: 40px;
 }
 .score{
     background-color: #080001;
     border-radius: 5px;
     color: #F94F6D;
-    font-size: 2em;
-    padding: 15px;
+    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 50px; */
-    margin-top: -15px;
+    width:300px;
+    height: 200px;
 }
 .buttons{
-    padding-top: 10px;
     display: flex;
+    gap: 10px;
 }
 .buttons button{
     background: transparent;
     border: 1px solid white;
     border-radius: 3px;
     color: white;
-    padding: 3px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px 2px;
+}
+.reset-button button{
+    position: absolute;
+    left: 47%;
+    bottom: 15%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: #0C4A6E;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 600;
     cursor: pointer;
     margin: 0px 2px;
 }
